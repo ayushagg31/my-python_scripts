@@ -1,4 +1,8 @@
 import turtle
+'''
+sudo apt-get install python3-tk
+sudo apt-get install python-tk
+'''
 
 def shape(x):
     window = turtle.Screen()
