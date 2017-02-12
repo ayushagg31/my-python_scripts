@@ -9,8 +9,10 @@ def shoo():
 	os.system('shutdown')
 
 now = datetime.datetime.now()
-if now.hour >= 0 & now.hour <=12:
+if now.hour >= 0 and now.hour <=4:
 	t_hr = 4
+elif now.hour > 4 and now.hour <=12:
+	t_hr = 12 + 16
 elif now.hour >12 and now.hour <24:
 	t_hr = 28
 t_min = 59
