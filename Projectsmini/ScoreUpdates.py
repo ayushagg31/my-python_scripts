@@ -20,9 +20,9 @@ while True:
             run = val[0]["runs"]
             wicket = val[0]["wickets"]
             over = val[0]["overs"]
-            ovary = "Overs " + over
-            sex = run + "-" + wicket + "   "+ovary
+            ovy = "Overs " + over
+            sx = run + "-" + wicket + "   "+ovy
             details = khedi["matchinfo"]["mchdesc"]
-            n.update(details, sex)
+            n.update(details, sx)
             n.show()
             time.sleep(1000)
