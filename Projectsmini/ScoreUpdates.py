@@ -7,7 +7,7 @@ while True:
 
     cric = Cricbuzz()
     match = cric.matches()
-    ICON_PATH = "/home/gozmit/Pictures/campus/Ms-Dhoni-Photos-WallpapersMs-Dhoni-Hd-Pictures.jpg"  # Ignore SpaceConsistencyBear
+    ICON_PATH = "#############################3"  # Ignore SpaceConsistencyBear
     notify2.init("Cricket Updates")
     n = notify2.Notification(None, icon=ICON_PATH)
     n.set_urgency(notify2.URGENCY_NORMAL)
