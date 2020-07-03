@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+# A Python bot which fetch questions from live trivia and tries to find answer on a quick google search
+# Technology Used: Python, Pytesseract, google search api
+
 from googleapiclient.discovery import build
 import pprint
 import json
