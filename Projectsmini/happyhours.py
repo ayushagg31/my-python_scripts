@@ -1,3 +1,6 @@
+# Python script for automating the downloading of content during the happy hours(2-5 AM). It was implement during the initial days of JIO Launch.
+
+
 import sys
 import sched
 import urllib
