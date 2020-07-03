@@ -1,3 +1,5 @@
+# Python script for automating the email sending process. Script was created as a part of a web project
+
 #!/usr/bin/python
 import email
 import imaplib
