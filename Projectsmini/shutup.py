@@ -1,3 +1,5 @@
+# Fun script written in Python to shutdown the system based on the clock, it was the part of happyhours.py script.
+
 import sched
 import time
 import os
