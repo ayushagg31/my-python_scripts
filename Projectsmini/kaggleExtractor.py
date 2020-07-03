@@ -1,9 +1,9 @@
-# Python code for extracting data related to top 5 result
+# Python script for extracting data related to top query result on Kaggle website and save it in a csv file. This script was created as a part of web project.
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import csv
 import time
-fields = ['Name','Location','Pagelink','LinkedIn Id','Current_Rank','Highest_Rank']
+fields = ['Name','Location','Pagelink','LinkedIn Id','Current_Rank','Highest_Rank']	
 # csv filename = kaggle_records.csv
 filename = "kaggle_records.csv"
 csvfile = open(filename,'w')
@@ -19,7 +19,7 @@ try:
 		namesearch=browser.find_element_by_class_name('quick-search__search-box')
 		namesearch.clear()
 		# search key Ayush
-		namesearch.send_keys('Ayush')
+		namesearch.send_keys('Ayush')	# search keyword
 		time.sleep(10) #adjust it accrding to the net speed
 		j=i
 		while j>0:
