@@ -1,7 +1,10 @@
+# Python script for fetching Top trending videos/music on Youtube and top query result for a website.
+# Tech Used: Youtube data API, requests
+
 import json
 import requests
 
-API_KEY = "##########################333"
+API_KEY = "##########################"
 len = 5
 
 def trending_videos():
