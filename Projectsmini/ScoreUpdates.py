@@ -1,4 +1,4 @@
-# Python script for fetching live cricket score and shows notification on desktop after delays of 10s
+# Python script for fetching live cricket score, which shows notification on desktop after delays of 10s
 # Tech Used:- Cricbuzz API, Notify2
 
 from pycricbuzz import Cricbuzz
