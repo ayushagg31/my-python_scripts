@@ -1,4 +1,5 @@
-# Python script for extracting data related to top query result on Kaggle website and save it in a csv file. This script was created as a part of web project.
+# Python script for extracting data related to top query result on Kaggle website and save it in a csv file for further use as a contribution in a major project.
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import csv
